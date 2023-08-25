@@ -1,0 +1,79 @@
+ styles.css 
+
+ Body styles 
+body {
+    font-family Arial, sans-serif;
+    background-color #f8f8f8;
+    margin 0;
+    padding 0;
+}
+
+ Container styles 
+.container {
+    width 50%;
+    margin auto;
+    padding 20px;
+    background-color white;
+    border 1px solid #e0e0e0;
+    border-radius 5px;
+    box-shadow 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity 0;
+    transform translateY(-20px);
+    transition opacity 0.5s ease, transform 0.5s ease;
+}
+
+ Heading styles 
+h1 {
+    text-align center;
+    padding 20px;
+    background-color #3498db;
+    color white;
+    margin 0;
+    opacity 0;
+    transform translateY(-20px);
+    transition opacity 0.5s ease, transform 0.5s ease;
+}
+
+ Form styles 
+form {
+    text-align left;
+    opacity 0;
+    transform translateY(20px);
+    transition opacity 0.5s ease, transform 0.5s ease;
+}
+
+ Input styles 
+label {
+    display block;
+    margin-top 10px;
+    font-weight bold;
+}
+
+input[type=file], select, button {
+    display block;
+    width 100%;
+    margin-top 5px;
+    padding 10px;
+    border 1px solid #e0e0e0;
+    border-radius 4px;
+    background-color #f8f8f8;
+    font-size 14px;
+    transition border-color 0.3s ease-in-out;
+}
+
+input[type=file]hover, selecthover, buttonhover {
+    border-color #3498db;
+}
+
+ Button styles 
+button {
+    background linear-gradient(45deg, #3498db, #2980b9);
+    color white;
+    font-weight bold;
+    cursor pointer;
+    transition background-color 0.3s ease-in-out;
+}
+
+buttonhover {
+    background linear-gradient(45deg, #2980b9, #2471a3);
+}
